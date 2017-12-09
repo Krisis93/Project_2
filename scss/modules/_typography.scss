@@ -1,0 +1,102 @@
+/* HEADINGS */
+
+
+.head-2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 50px !important;
+    color: #666666;
+    padding-bottom: 10px;
+    font-size: 35px;
+    
+}
+.head-1{
+    margin-top: -290px;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.head-3{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.head-4{
+}
+
+/* ICONS */
+
+.fa-2{
+    font-size: 18px;
+}
+.fa-3{
+    font-size: 26px;
+}
+.fa-4{
+    font-size: 36px;
+}
+.fa-6{
+    font-size: 44px;
+}
+
+.fa-contact{
+    padding: 13px 15px;
+    @include add-border(1px, $dark-color, all);
+    @include border-radius(40%);
+    @include add-background($light-color);
+    margin-right: 10px;
+    color: $dark2-color;
+}
+.fa-contact:hover{
+    @include add-border(1px, $dark-color, all);
+    @include border-radius(40%);
+    @include add-background($dark-color);
+    color: $light-color;
+}
+
+.fa-color{
+    color: $dark2-color;
+}
+.fa-border{
+    margin-top: -80px;
+    @include add-background($dark2-color);
+    @include add-border(3px,#fff,all);
+    @include border-radius(50%);
+    padding: 13px 15px;
+    width: 80px;
+    color: #fff;
+}
+
+/* SPAN */
+
+.location-left{
+    margin-left: -50px;
+     margin-right: 10%; 
+}
+.location-right1{
+    margin-left: 10%;
+}
+.location-right2{
+    margin-left: 2%;
+}
+
+
+/* TEXT */
+
+.text{
+    padding-top: 10px;
+}
+.quete{
+    font-size: 24px;
+}
+.author{
+    font-size: 14px;
+}
+.left{
+    padding-left: 15px;
+}
+.head-left{
+    margin-left: 6.8%;
+}

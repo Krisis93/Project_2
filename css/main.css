@@ -1,0 +1,508 @@
+/*
+    Projekts_2 Theme
+    Author : Kriss
+    Version : 0.1
+*/
+/* BASE */
+/* Variables for Project */
+/* Font and its color */
+/* Background colors */
+/* Background picture - Parralax */
+/* NORMALIZE */
+/* line 3, ../scss/base/_normalize.scss */
+.button {
+  border-style: none;
+}
+
+/* line 6, ../scss/base/_normalize.scss */
+li {
+  list-style: none;
+}
+
+/* line 9, ../scss/base/_normalize.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 14, ../scss/base/_normalize.scss */
+textarea {
+  resize: none;
+}
+
+/* For all web-page */
+/* line 3, ../scss/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* MIXINS */
+/* LAYOUTS */
+/* FOOTER */
+/* line 3, ../scss/layouts/_footer.scss */
+.section-footer {
+  text-align: center;
+  background: #29302b;
+}
+
+/*Head Media*/
+@media only screen and (max-width: 768px) {
+  /* line 3, ../scss/layouts/_media.scss */
+  .section-background {
+    height: 600px !important;
+  }
+
+  /* line 6, ../scss/layouts/_media.scss */
+  .head-content {
+    padding: 5px;
+    text-align: center;
+  }
+
+  /* line 10, ../scss/layouts/_media.scss */
+  .head-logo {
+    width: 180%;
+    height: 160%;
+    margin-left: -65px;
+  }
+
+  /* line 15, ../scss/layouts/_media.scss */
+  .head-1 {
+    font-size: 15px;
+    margin-top: -163px !important;
+  }
+}
+/*Services Media*/
+@media only screen and (max-width: 768px) {
+  /* line 22, ../scss/layouts/_media.scss */
+  .head-2 {
+    margin-left: 15px;
+  }
+}
+/*OurStory Media*/
+@media only screen and (max-width: 768px) {
+  /* line 28, ../scss/layouts/_media.scss */
+  .section-about {
+    height: 800px !important;
+  }
+
+  /* line 31, ../scss/layouts/_media.scss */
+  .blockquote-reverse {
+    margin-top: 20px;
+  }
+}
+/*Team Media*/
+@media only screen and (max-width: 768px) {
+  /* line 37, ../scss/layouts/_media.scss */
+  .block-own {
+    margin-left: -20px !important;
+  }
+
+  /* line 40, ../scss/layouts/_media.scss */
+  .block-own1 {
+    margin-left: -20px !important;
+  }
+
+  /* line 43, ../scss/layouts/_media.scss */
+  .block-own2 {
+    margin-left: 15px !important;
+  }
+}
+/*Partners Media*/
+@media only screen and (max-width: 768px) {
+  /* line 49, ../scss/layouts/_media.scss */
+  .section-partners {
+    height: 800px !important;
+  }
+
+  /* line 52, ../scss/layouts/_media.scss */
+  .block-partners {
+    margin-top: 15px !important;
+  }
+}
+/*Location Media*/
+@media only screen and (max-width: 768px) {
+  /* line 58, ../scss/layouts/_media.scss */
+  .section-location {
+    height: 900px !important;
+  }
+
+  /* line 61, ../scss/layouts/_media.scss */
+  .fa-contact {
+    font-size: 26px !important;
+  }
+
+  /* line 64, ../scss/layouts/_media.scss */
+  .location-left {
+    margin-left: 5px !important;
+  }
+
+  /* line 67, ../scss/layouts/_media.scss */
+  .btn-contact {
+    margin-left: -7px !important;
+    margin-top: 20px !important;
+  }
+
+  /* line 71, ../scss/layouts/_media.scss */
+  .location-right1 {
+    position: absolute;
+    margin-left: -230px !important;
+    margin-top: 100px !important;
+  }
+
+  /* line 76, ../scss/layouts/_media.scss */
+  .location-right2 {
+    position: absolute;
+    margin-left: -61px !important;
+    margin-top: 100px !important;
+  }
+}
+/*Footer Media*/
+@media only screen and (max-width: 768px) {
+  /* line 84, ../scss/layouts/_media.scss */
+  .section-footer {
+    height: 84px;
+  }
+}
+/* MODULES */
+/* Buttons */
+/* line 2, ../scss/modules/_buttons.scss */
+.btn-contact {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: -10px;
+  padding: 13px 15px;
+  color: #212724;
+  border: 1px solid #212724;
+  background: #f1eee7;
+  box-shadow: 0px 15px 10px -10px #212724;
+  transition: all ease-in-out 300ms;
+}
+
+/* line 13, ../scss/modules/_buttons.scss */
+.btn-contact:hover {
+  color: #212724;
+  box-shadow: 0px 25px 20px -20px #212724;
+  transform: translate(0, -5px);
+  transition: all ease-in-out 300ms;
+}
+
+/* line 19, ../scss/modules/_buttons.scss */
+.modal-footer {
+  text-align: center;
+}
+
+/* line 22, ../scss/modules/_buttons.scss */
+.m-button {
+  padding: 10px 13px;
+  color: #666666;
+  border: 1px solid #666666;
+  background: #f1eee7;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  transition: all ease-in-out 150ms;
+}
+
+/* line 30, ../scss/modules/_buttons.scss */
+.m-button:hover {
+  color: #f1eee7;
+  background: #666666;
+  transition: all ease-in-out 150ms;
+}
+
+/* Blocks */
+/* line 3, ../scss/modules/_blocks.scss */
+.block {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+/* line 7, ../scss/modules/_blocks.scss */
+.block h3 {
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+/* line 13, ../scss/modules/_blocks.scss */
+.block-1 {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* line 19, ../scss/modules/_blocks.scss */
+.block-2 {
+  margin-top: 50px;
+  background: #cedea8;
+  color: #29302b;
+  border-radius: 10px;
+}
+
+/* line 25, ../scss/modules/_blocks.scss */
+.block-image img {
+  width: 220px;
+  height: 250px;
+  filter: grayscale(0.3);
+  border-bottom: 5px solid #212724;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 33, ../scss/modules/_blocks.scss */
+.block-image .head-3 {
+  color: #212724;
+}
+/* line 36, ../scss/modules/_blocks.scss */
+.block-image .fa-team {
+  color: #212724;
+  transition: all ease-in-out 100ms;
+  padding: 0 0 0 10px;
+}
+/* line 41, ../scss/modules/_blocks.scss */
+.block-image .fa-team:hover {
+  color: #cedea8;
+  transition: all ease-in-out 100ms;
+}
+/* line 45, ../scss/modules/_blocks.scss */
+.block-image .mobile {
+  padding: 0 0 0 10px;
+}
+/* line 48, ../scss/modules/_blocks.scss */
+.block-image .email {
+  padding: 0 0 0 10px;
+}
+
+/* line 53, ../scss/modules/_blocks.scss */
+.block-own {
+  padding: 15px 25px;
+  width: 400px;
+  height: 470px;
+  margin-left: 25%;
+}
+
+/* line 59, ../scss/modules/_blocks.scss */
+.block-own1 {
+  padding: 15px 25px;
+  width: 400px;
+  height: 470px;
+  margin-right: 25%;
+}
+
+/* line 68, ../scss/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* line 71, ../scss/modules/_blocks.scss */
+.block-partners img {
+  width: 130px;
+  height: 100px;
+  filter: grayscale(1);
+  transition: all ease-in-out 200ms;
+}
+
+/* line 77, ../scss/modules/_blocks.scss */
+.block-partners img:hover {
+  filter: grayscale(0);
+  transition: all ease-in-out 200ms;
+}
+
+/* line 81, ../scss/modules/_blocks.scss */
+.block-connect {
+  margin-left: 3%;
+}
+
+/* Sections */
+/* line 3, ../scss/modules/_sections.scss */
+section {
+  padding: 30px 0;
+}
+
+/* line 8, ../scss/modules/_sections.scss */
+.section-background {
+  position: relative;
+  height: 800px;
+  background: url("../img/background1.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* line 15, ../scss/modules/_sections.scss */
+.section-background .head-content {
+  padding: 100px;
+  text-align: center;
+}
+
+/* line 21, ../scss/modules/_sections.scss */
+.section-background {
+  border-bottom: 5px solid #212724;
+}
+
+/* line 25, ../scss/modules/_sections.scss */
+.section-services {
+  background-color: rgba(57, 65, 48, 0.1);
+  border-bottom: 5px solid #212724;
+}
+
+/* line 29, ../scss/modules/_sections.scss */
+.section-about {
+  position: relative;
+  height: 400px;
+  background: url("../img/background3.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  border-bottom: 5px solid #212724;
+}
+
+/* line 36, ../scss/modules/_sections.scss */
+.section-team {
+  border-bottom: 5px solid #212724;
+  background-color: rgba(57, 65, 48, 0.1);
+}
+
+/* line 41, ../scss/modules/_sections.scss */
+.section-partners {
+  position: relative;
+  height: 300px;
+  background: url("../img/background5.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  border-bottom: 5px solid #212724;
+}
+
+/* line 48, ../scss/modules/_sections.scss */
+.section-location {
+  background-color: rgba(57, 65, 48, 0.1);
+  border-bottom: 5px solid #212724;
+}
+
+/* HEADINGS */
+/* line 4, ../scss/modules/_typography.scss */
+.head-2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 50px !important;
+  color: #666666;
+  padding-bottom: 10px;
+  font-size: 35px;
+}
+
+/* line 14, ../scss/modules/_typography.scss */
+.head-1 {
+  margin-top: -290px;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 22, ../scss/modules/_typography.scss */
+.head-3 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* ICONS */
+/* line 31, ../scss/modules/_typography.scss */
+.fa-2 {
+  font-size: 18px;
+}
+
+/* line 34, ../scss/modules/_typography.scss */
+.fa-3 {
+  font-size: 26px;
+}
+
+/* line 37, ../scss/modules/_typography.scss */
+.fa-4 {
+  font-size: 36px;
+}
+
+/* line 40, ../scss/modules/_typography.scss */
+.fa-6 {
+  font-size: 44px;
+}
+
+/* line 44, ../scss/modules/_typography.scss */
+.fa-contact {
+  padding: 13px 15px;
+  border: 1px solid #212724;
+  -moz-border-radius: 40%;
+  -webkit-border-radius: 40%;
+  border-radius: 40%;
+  background: #f1eee7;
+  margin-right: 10px;
+  color: #29302b;
+}
+
+/* line 52, ../scss/modules/_typography.scss */
+.fa-contact:hover {
+  border: 1px solid #212724;
+  -moz-border-radius: 40%;
+  -webkit-border-radius: 40%;
+  border-radius: 40%;
+  background: #212724;
+  color: #f1eee7;
+}
+
+/* line 59, ../scss/modules/_typography.scss */
+.fa-color {
+  color: #29302b;
+}
+
+/* line 62, ../scss/modules/_typography.scss */
+.fa-border {
+  margin-top: -80px;
+  background: #29302b;
+  border: 3px solid white;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  padding: 13px 15px;
+  width: 80px;
+  color: #fff;
+}
+
+/* SPAN */
+/* line 74, ../scss/modules/_typography.scss */
+.location-left {
+  margin-left: -50px;
+  margin-right: 10%;
+}
+
+/* line 78, ../scss/modules/_typography.scss */
+.location-right1 {
+  margin-left: 10%;
+}
+
+/* line 81, ../scss/modules/_typography.scss */
+.location-right2 {
+  margin-left: 2%;
+}
+
+/* TEXT */
+/* line 88, ../scss/modules/_typography.scss */
+.text {
+  padding-top: 10px;
+}
+
+/* line 91, ../scss/modules/_typography.scss */
+.quete {
+  font-size: 24px;
+}
+
+/* line 94, ../scss/modules/_typography.scss */
+.author {
+  font-size: 14px;
+}
+
+/* line 97, ../scss/modules/_typography.scss */
+.left {
+  padding-left: 15px;
+}
+
+/* line 100, ../scss/modules/_typography.scss */
+.head-left {
+  margin-left: 6.8%;
+}

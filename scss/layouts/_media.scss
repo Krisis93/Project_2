@@ -1,0 +1,87 @@
+/*Head Media*/
+@include phone{
+        .section-background{
+            height: 600px !important;
+        }
+        .head-content{ 
+            padding: 5px;
+            text-align: center;
+        }
+        .head-logo{
+            width: 180%;
+            height: 160%;
+            margin-left: -65px;
+        }
+        .head-1{
+            font-size: 15px;
+            margin-top: -163px !important;
+        }
+    }
+/*Services Media*/
+@include phone{
+    .head-2{
+        margin-left: 15px;
+    }
+}
+/*OurStory Media*/
+@include phone{
+    .section-about{
+        height: $background-height-l !important;
+    }
+    .blockquote-reverse{
+        margin-top: 20px;
+    }
+}
+/*Team Media*/
+@include phone{
+    .block-own{
+        margin-left: -20px !important;
+    }
+    .block-own1{
+        margin-left: -20px !important;
+    }
+    .block-own2{
+        margin-left: 15px !important;
+    }
+}
+/*Partners Media*/
+@include phone{
+    .section-partners{
+        height: $background-height-l !important;
+    }
+    .block-partners{
+        margin-top: 15px !important;
+    }
+}
+/*Location Media*/
+@include phone{
+    .section-location{
+        height: 900px !important;
+    }
+    .fa-contact{
+        font-size: 26px !important;
+    }
+    .location-left{
+        margin-left: 5px !important;
+    }
+    .btn-contact{
+        margin-left: -7px !important;
+        margin-top: 20px !important;
+    }
+    .location-right1{
+        position: absolute;
+        margin-left: -230px !important;
+        margin-top: 100px !important;
+    }
+    .location-right2{
+        position: absolute;
+        margin-left: -61px !important;
+        margin-top: 100px !important;
+    }
+}
+/*Footer Media*/
+@include phone{
+    .section-footer{
+        height: 84px;
+    }
+}
